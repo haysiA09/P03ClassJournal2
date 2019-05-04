@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //create module object of grade and year
-                Module c347=new Module("c347","B",1);
+                Module c347=new Module("c347");
 
                 Intent i=new Intent(MainActivity.this,ResultActivity.class);
                 //Put Module object in Intent
