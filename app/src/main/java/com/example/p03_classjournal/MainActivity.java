@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent i=new Intent(MainActivity.this,ResultActivity.class);
                 //Put Module object in Intent
                 i.putExtra("module",c347);
-                
+                //StartActivit
+                startActivity(i);
+
 
             }
         });
